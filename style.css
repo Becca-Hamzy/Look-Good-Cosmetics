@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+.mother-container{
+    /* border: 2px solid blue; */
+    height: 650px;
+    width: 100%;
+}
+.shop{
+    width: 450px;
+    height: 60px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 167, 94);
+}
+#nav-1{
+    display: none;
+}
+.logo{
+    width: 450px;
+    height:60px ;
+    /* border: 1px solid goldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+
+}
+.logo img{
+    width: 130px;
+}
+#cart{
+    width: 70px;
+}
+#search{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+#cont{
+    width: 30px;
+}
+.profile{
+    width: 450px;
+    height: 60px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 167, 94);
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid;     */
+    justify-content: space-between;
+
+
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+    font-weight: 20px;
+}
+.upper img{
+    width: 100px;
+    transition: transform 0.3s ease;
+    margin-left: 90px;
+}
+.img-1{
+    height: 265px;
+    width: 300px;
+    border: 5px solid rgb(238, 234, 234);
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.img-1 img:hover{
+    transform: scaleX(2.0);
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+
+}
+.lower img{
+    width: 100px;
+    transition: transform 0.3s ease;
+    padding-top: 10px;
+    margin-left: 90px;
+
+
+}
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.img-2{
+    height: 270px;
+    width: 300px;
+    border: 5px solid rgb(238, 234, 234);
+    margin-top: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.img-2 img:hover{
+    transform: scaleX(2.0);
+    
+
+}
+.text{
+    background-color: rgb(238, 234, 234);
+    border-radius: 2px;
+    height: max-content;
+    padding-right: 10px;
+}
+#btn-1{
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+    width: 100px;
+  }
+#btn-2{
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+#btn-3{
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+    width: 100px;
+}
+#btn-4{
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    width: 100px;
+}
+#btn-5{
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+    width: 100px;
+}
+#btn-6{
+    background-color: rgb(196, 167, 94) ;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+    width: 100px;
+}
+.hambug {
+    display: none;
+}
+
+
+@media (max-width: 900px){
+  #nav-1{
+    display: block;
+    width: 180px;
+    height: 60px;
+    align-content: center;
+    background-color: rgb(238, 234, 234);
+    padding-left: 20px;
+
+
+  }
+  .hambug{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 140px;
+    background-color: white;
+    z-index: 1;
+    height: 20px;
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 0px;
+    
+  }
+  .shop{
+    display: none;
+  }
+
+  #cont{
+    display: none;
+  }
+
+  .logo{
+    width: 250px;
+    height:60px ;
+    /* border: 1px solid goldenrod; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 234, 234);
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .logo img{
+    width: 80px;
+}
+.profile{
+    width: 450px;
+    height: 60px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid;     */
+    justify-content: space-evenly;
+
+}
+#cart{
+    width: 50px;
+}
+#search{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.upper{
+    display: table-row;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lower{
+    display: table-row;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+}
